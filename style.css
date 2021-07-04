@@ -7,7 +7,7 @@ body{
 }
 
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .color{
@@ -49,4 +49,30 @@ h1{
 .right-padding{
     padding-right: 100px;
 }
+.experince-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 
+.experince-item{
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 50px rgb(100, 100, 100);   
+}
+#pro{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgba(250, 123, 4, 0.952),rgba(245, 191, 43, 0.938));
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
